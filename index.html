@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Application Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anaheim&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main>
+      <div>
+        <h1>Application For Permission To Date My Daughter</h1>
+        <p>
+          <b>Note:</b> Form is to be completed at least 21 days prior to date
+        </p>
+        <form action="">
+          <fieldset>
+            <legend>Personal Details</legend>
+            <p>
+              <label for="name">
+                Name:
+                <input
+                  type="text"
+                  id="name"
+                  placeholder="Enter name here"
+                  required
+                />
+              </label>
+            </p>
+            <p>
+              <label for="address"
+                >Address:
+                <input
+                  type="text"
+                  id="address"
+                  placeholder="Enter address here"
+              /></label>
+            </p>
+            <p>
+              <label for="email"
+                >Email:
+                <input
+                  type="email"
+                  id="email"
+                  placeholder="Enter email here"
+                  required
+              /></label>
+            </p>
+            <p>
+              <label for="phone"
+                >Phone Number:
+                <input
+                  type="tel"
+                  id="phone"
+                  placeholder="Enter 10 digit number"
+                  maxlength="10"
+              /></label>
+            </p>
+            <p>
+              <label for="iq"
+                >IQ:
+                <input
+                  type="text"
+                  id="phone"
+                  placeholder="Enter IQ number"
+                  maxlength="3"
+              /></label>
+            </p>
+            <p>
+              <label for="gender"
+                >Gender:
+                <input type="radio" name="sex" id="gender" checked />Male
+                <input type="radio" name="sex" id="gender" />Female
+                <input type="radio" name="sex" id="gender" />Other
+              </label>
+            </p>
+            <p>
+              <label for="date"
+                >Date of Proposed Outing: <input type="date" id="date"
+              /></label>
+            </p>
+          </fieldset>
+          <fieldset>
+            <legend>Check all that apply</legend>
+            <p>
+              <input type="checkbox" name="choice" /> I have tattoos and/or
+              piercings <br />
+              <input type="checkbox" name="choice" /> I have tattoos and/or
+              piercings <br />
+              <input type="checkbox" name="choice" /> I have tattoos and/or
+              piercings <br />
+              <input type="checkbox" name="choice" /> I have tattoos and/or
+              piercings
+            </p>
+          </fieldset>
+          <fieldset>
+            <legend>Choices</legend>
+            <p>
+              Political Persuation
+              <select>
+                <option value="left">Left Wing</option>
+                <option value="right">Right Wing</option>
+                <option value="conservative">Conservative</option>
+                <option value="liberal">Liberal</option>
+              </select>
+            </p>
+          </fieldset>
+          <fieldset>
+            <legend>Essay Section</legend>
+            <p>In 50 words or more explain why you want to date my daughter</p>
+            <textarea
+              cols="50"
+              rows="5"
+              placeholder="Enter Text Here"
+            ></textarea>
+            <p>Please upload contact details for 2 references</p>
+            <textarea
+              cols="50"
+              rows="5"
+              placeholder="Enter Text Here"
+            ></textarea>
+            <p>
+              Upload Police Clearance Certificate, Bank Statement and Medical
+              Certifiates here:
+              <input type="file"/>
+            </p>
+          </fieldset>
+          <p><input type="submit" value="Send Your Application" /></p>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>

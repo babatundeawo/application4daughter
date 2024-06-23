@@ -1,0 +1,23 @@
+body {
+  font-family: 'Anaheim', sans-serif;
+}
+main {
+  background-color: lightgoldenrodyellow;
+  width: 100%;
+  padding: 10px;
+}
+div {
+  width: 70%;
+  margin: 10px auto;
+  background-color: white;
+  border: 1px solid rgb(65, 63, 63);
+  border-radius: 20px;
+  padding: 5%;
+  font-size: 120%;
+}
+h1 {
+  text-align: center;
+}
+legend {
+  font-weight: bold;
+}
